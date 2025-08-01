@@ -1,3 +1,7 @@
+body{
+  background-color: #f2f2f2;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +43,14 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.card button{
+  background-color:blueviolet;
+  color:white;
+  border: 0;
+}
+
+.card button:focus{
+  outline: none;
 }
